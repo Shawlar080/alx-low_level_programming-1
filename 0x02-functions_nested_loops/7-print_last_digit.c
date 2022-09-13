@@ -8,20 +8,18 @@
 
 int print_last_digit(int x)
 {
-int last_digits;
+int y;
 
-if (x > 0)
+if (x < 0)
 {
-last_digits = x % 10;
-_putchar('0' + last_digits);
-_putchar('\n');
-return (last_digits);
+y = -1 * (x % 10);
+_putchar(y + '0');
+return (y);
 }
 else
 {
-last_digits = -1 * (x % 10);
-_putchar('0' + last_digits);
-_putchar('\n');
-return (last_digits);
+y = (x % 10);
+_putchar(y + '0');
+return (y);
 }
 }
