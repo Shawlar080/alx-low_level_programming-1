@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*main - print putchar
-*Description: A program to print putchar
-*Return : Always 0
+* main - Print "_putchar" followed by a new line.
+* Description: You are not allowed to include standard library.
+* Return: 0
 */
 
 int main(void)
