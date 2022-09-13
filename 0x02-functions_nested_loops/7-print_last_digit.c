@@ -14,6 +14,6 @@ if (x > 0 || x < 0)
 {
 _putchar('0' + last_digits);
 _putchar('\n');
-return (0);
 }
+return (0);
 }
