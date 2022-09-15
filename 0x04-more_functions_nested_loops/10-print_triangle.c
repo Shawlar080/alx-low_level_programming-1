@@ -13,11 +13,11 @@ x = 0;
 i = size - 1;
 while (x < size)
 {
-i = size - x;
+i = size - 1 - x;
 j = x + 1;
 while (i > 0)
 {
-_putchar('');
+_putchar(' ');
 i--;
 }
 while (j > 0)
