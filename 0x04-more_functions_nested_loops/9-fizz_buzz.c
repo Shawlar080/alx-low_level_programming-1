@@ -5,7 +5,7 @@
 * Return: Always 0
 */
 
-int main(int)
+int main(void)
 {
 int i;
 for (i = 1; i < 101; i++)
