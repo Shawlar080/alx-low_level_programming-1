@@ -8,19 +8,19 @@
 int main(void)
 {
 int i;
-for (i = 1; i < 101; i++)
+for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
-printf("%d ", Fizz);
+printf("%c ", Fizz);
 }
 else if (i % 5 == 0)
 {
-printf("%d ", Buzz);
+printf("%c ", Buzz);
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-printf("%d ", FizzBuzz);
+printf("%c ", FizzBuzz);
 }
 else
 {
