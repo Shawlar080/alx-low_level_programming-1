@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include "main.h"
+#include <math.h>
 
 /**
 * main - main block
-* Description: a program that finds and prints the largest prime factor
+* Description: a program that finds and prints
+* the largest prime factor
 *  of the number 612852475143
 *  Return: 0
 */
